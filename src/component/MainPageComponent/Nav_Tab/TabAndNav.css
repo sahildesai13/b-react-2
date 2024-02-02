@@ -1,0 +1,15 @@
+.TabText{
+    font-size: 14px !important;
+}
+.TabText li{
+    list-style-type: square;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: black;
+}
+.nav-pills .nav-link{
+    border-radius: 0;
+    color: black;
+    font-weight: 600;
+    text-align: left;
+}

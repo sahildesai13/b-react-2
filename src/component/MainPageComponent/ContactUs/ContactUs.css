@@ -1,0 +1,27 @@
+.contactLogo{
+    font-size: 70px;
+}
+.contactPart{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 5px;
+    max-height: 193px;
+}
+.ContactForm input,.ContactForm textarea{
+    width: 100% !important;
+    border: 0;
+    border-bottom: 3px solid black;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.ContactDtl p,.ContactDtl ul li{
+    color: #797979;
+    line-height: 1.5;
+    font-size: 1.012rem;
+}
+.ContactDtl ul li{
+    line-height: 2 !important;
+}
+@media  (max-width:768px) and (min-width:426px) {
+    .contactPart h5 {
+        font-size: 14px !important;
+    }
+}

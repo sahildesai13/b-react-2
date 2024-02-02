@@ -1,0 +1,26 @@
+.contactDtl a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    padding: 5px 15px;
+    text-align: center;
+    font-size: 14px;
+}
+.footerIcon{
+    padding: 8px 12px;
+    border-radius: 50px;
+    border: 2px solid black;
+    /* background-color: aqua; */
+    margin: 10px 5px;
+    font-size: 16px;
+}
+.social{
+    padding-bottom: 20px;
+}
+footer{
+    margin-top: 50px;
+    border-top: 2px solid black;;
+}
+.CopyRight{
+    border-top: 2px solid black;
+}

@@ -1,0 +1,23 @@
+.Count{
+    font-weight: 800;
+    font-size: 45px;
+    letter-spacing: 2px;
+}
+@media (max-width:426px) {
+    .Count{
+        font-size: 30px;
+    }
+    .CountCover{
+        max-height: 220px;
+    }
+    .CountCover img{
+        width: 70px;
+    }
+    .OurCard{
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        flex-direction: column !important;
+        text-align: center !important;
+    }
+}

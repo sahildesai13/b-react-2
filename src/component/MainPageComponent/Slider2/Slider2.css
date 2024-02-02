@@ -1,0 +1,16 @@
+.Slider2Item img {
+    width: 100px !important;
+    margin: auto;
+}
+
+.slider2.owl-theme .owl-dots .owl-dot span {
+    width: 50px !important;
+    border-radius: 0;
+    height: 4px;
+    cursor: pointer;
+}
+
+.Slider2 .owl-dots .owl-dot.active span,
+.Slider2 .owl-dots .owl-dot:hover span {
+    background-color: black;
+}

@@ -1,0 +1,15 @@
+
+#MainLogo img{
+    width: 150px;
+}
+@media (max-width:778px) {
+    .NavResponsiv a{
+        color: white !important;
+    }
+    .TopNav{
+        background-color: black !important;
+    }
+    .NavContact{
+        display: none;
+    }
+}

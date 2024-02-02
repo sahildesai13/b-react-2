@@ -1,0 +1,58 @@
+.fw-8{
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+.fw-7{
+    font-weight: 700;
+}
+.MegaTxt{
+    font-size: 13px !important;
+    color: #797979;
+    font-weight: 400;
+    line-height: 1.4rem;
+    text-align:  justify;
+}
+
+.btn {
+    font-size: 12px;
+    justify-content: space-between;
+    position: relative;
+    padding: 1em 2.9em;
+    border-radius: 0;
+    transition: all .2s;
+    border: none;
+    color: white;
+    background-color: black;
+   }
+   
+   .btn:hover {
+    transform: translateY(-3px);
+    color: white;
+    background-color: black;
+   }
+   
+   .btn:active {
+    transform: translateY(-1px);
+    color: white;
+   }
+   
+   .btn::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+   }
+   
+   .btn::after {
+    background-color: #000000;
+   }
+   
+   .btn:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+   }

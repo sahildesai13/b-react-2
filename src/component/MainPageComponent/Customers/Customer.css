@@ -1,0 +1,25 @@
+.customer{
+    display:  flex;
+    align-items:  center;
+    justify-content: center;
+    flex-direction: column;
+}
+.flexImg{
+    width: 100%;
+    max-width: 175px;
+}
+.FlexItems{
+    border: 1px solid grey;
+}
+
+.flexBox{
+    display:  grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 10fr));
+}
+@media (min-width:1439px) {
+    .flexBox{
+        margin: 0 220px !important;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+
+    }
+}

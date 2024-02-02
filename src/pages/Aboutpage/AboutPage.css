@@ -1,0 +1,8 @@
+.AboutPageTitle h2{
+    font-size: 50px;
+}
+.linkItem{
+    text-decoration: none;
+    color:  black;
+    font-weight: 700;
+}

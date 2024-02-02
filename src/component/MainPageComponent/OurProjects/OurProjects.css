@@ -1,0 +1,36 @@
+.ProjectDtl {
+    border: 5px solid #1d1d1d;
+    border-bottom-color: grey;
+}
+
+.DtlTxt {
+    z-index: 11;
+}
+
+.ProjectDtl::after {
+    position: absolute;
+    content: '';
+    top: 0px;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(29, 29, 29, .5);
+    transition: 0.2s;
+    z-index: 10;
+}
+
+.ProjectDtl:hover.ProjectDtl::after {
+    background-color: rgb(29, 29, 29, .1);
+}
+.ProjectDtl:hover{
+    border-bottom-color: rgb(164, 164, 164);
+}
+
+.DtlBtn {
+    opacity: 0;
+    transition: 0.2s;
+}
+
+.ProjectDtl:hover .DtlBtn {
+    opacity: 1;
+}
